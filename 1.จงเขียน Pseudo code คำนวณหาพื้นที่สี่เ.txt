@@ -1,0 +1,57 @@
+1.จงเขียน Pseudo code คำนวณหาพื้นที่สี่เหลี่ยมใดๆ 
+input h // get height
+input w // get width
+
+set answer = h*w
+print answer
+
+
+
+2.จงวิเคราะห์อัลกอริทึมต่อไปนี้ 
+เป็นการกำหนดค่า i ให้เท่ากับ 1
+และกำหนดค่า j ให้เท่ากับ n
+จากนั้นจะเป็นการ ตราวสอบว่าค่า i น้อยกว่า j หรือไม่ 
+ถ้าน้อยกว่า ก็จะเข้าสู่การทำงานได้แก่ 
+i จะมีค่าเพิ่มขึ้น  3 
+j จะมีค่าลดลง 5
+จะทำงานแบบนี้ไปเรื่อยๆ จนกว่า i จะมากกว่าหรือเท่ากับ j
+
+
+3.
+input Deposit 
+
+if  Deposit >= 1000000 then
+    set Interest = 2.5
+elseif  Deposit < 1000000then
+    set Interest = 1
+endif
+
+set  Total = (Deposit * Interest)/100
+print Total
+
+5.จงเขียนโปรแกรมเพื่อคำนวณหาผลรวมของเลข 5 ถึง 20
+
+-วิเคราะห์อัลกอริทึมที่จะได้รับ
+
+จะเป็นการไล่บวกค่าตั้งแต่ 5 ถึง 20
+
+-เขียน Pseudo code ที่คาดว่าจะได้รับ
+
+set I = 5
+set max = 20
+set SUM = 0
+
+for I > max(
+    SUM = SUM +I
+    I = I + 1
+)
+
+Print SUM
+
+
+
+Mini Project 1 https://scratch.mit.edu/projects/393818046/
+
+Mini Project 2 https://scratch.mit.edu/projects/394538845/
+
+Mini Project 3 https://scratch.mit.edu/projects/394542220/
