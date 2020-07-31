@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid_flex</title>
+    <style>
+        table,
+        th,
+        td {
+            border: groove;
+        }
+        .container>div{
+            background-color: tomato;
+            width: 200px;
+            height: 200px;
+            border: solid sienna;
+            text-align: center;
+            
+        }
+        .container>.item1{
+            position: static;
+            
+            left: 250px;
+        }
+        .container>.item2{
+            position: Relative;
+            top: 100px;
+            left: 250px;
+
+        }
+        .container>.item3{
+            position: Fixed;
+            top: 100px;
+            left: 500px;
+        }
+        .container>.item4{
+            position: absolute;
+            top: 100px;
+            left: 500px;
+        }
+        .container>.item5{
+            position: sticky;
+         
+            bottom:  200px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <hr>
+    <table>
+        <tr>
+            <th>
+                Value in Display มีอะไรบ้าง
+            </th>
+        </tr>
+        <tr>
+            <td> <em>
+                    inline
+                </em></td>
+        </tr>
+        <tr>
+            <td><em>
+                    block
+                </em></td>
+        </tr>
+        <tr>
+            <td><em>
+                    contents
+                </em></td>
+        </tr>
+        <tr>
+            <td><em>
+                    flex
+                </em></td>
+        </tr>
+        <tr>
+            <td><em>
+                    grid
+                </em></td>
+        </tr>
+        <tr>
+            <td><em>
+                    inline-(block,flex,grid,table)
+                </em></td>
+        </tr>
+        <tr>
+            <td><em>
+                    runin
+                </em></td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <th colspan="2">Grid และ Flex ต่างกันอย่างไรบ้าง</th>
+        </tr>
+        <tr>
+            <td> <em>grid </em> </td>
+            <td>จะเป็นการกำหนดรูปแบบ แบบตาราง
+            </td>
+        </tr>
+
+        <tr>
+            <td> <em>flex </em> </td>
+            <td>จะเป็นการกำหนดรูปแบบ แบบยืดหยุ่น
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <th colspan="2">Justify และ Align ต่างกันอย่างไรบ้าง</th>
+        </tr>
+        <tr>
+            <td> <em>Justify </em> </td>
+            <td>จะใช้จัดการกับแนวนอน
+            </td>
+        </tr>
+
+        <tr>
+            <td> <em>Align </em> </td>
+            <td>จะใช้จัดการกับแนวตั้ง
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <th colspan="2">Position คืออะไรและมีอะไรบ้าง</th>
+        </tr>
+        <tr>
+            <td> <em>Position </em> </td>
+            <td>เป็นการจัดรูปแบบ ประเภทหนึ่ง
+            </td>
+        </tr>
+
+        <tr>
+            <th colspan="2">ได้แก่</th>
+        </tr>
+
+        <tr>
+            <td> <em>Static </em> </td>
+            <td>จะแปะอยู่ในตำแหน่งค่าเริ่มต้นตามกฏ
+            </td>
+        </tr>
+
+        <tr>
+            <td> <em>Relative </em> </td>
+            <td>จะแปะอยู่ในตำแหน่งที่กกำหนดนับจากตำแหน่งของตัวมันเอง
+            </td>
+        </tr>
+
+        <tr>
+            <td> <em>Fixed </em> </td>
+            <td>จะอยู่ในหน้าจอเสมอ
+            </td>
+        </tr>
+
+        <tr>
+            <td> <em>Absolute </em> </td>
+            <td>จะแปะอยู่ในตำแหน่งนั้นๆของหน้าจอเลย
+            </td>
+        </tr>
+
+        <tr>
+            <td> <em>Sticky </em> </td>
+            <td>เมื่อเลื่อนถึงตำแหน่งที่กำหนดจะแปะอยู่ในตำแหน่งนั้น
+            </td>
+        </tr>
+
+    </table>
+    <div class="container">
+        <div class="item1">Static <p>จะแปะอยู่ในตำแหน่งค่าเริ่มต้นตามกฏ</p></div>
+        <div class="item2">Relative <p>จะแปะอยู่ในตำแหน่งที่กกำหนดนับจากตำแหน่งของตัวมันเอง</p></div>
+        <div class="item3">Fixed <p>จะอยู่ในหน้าจอเสมอ</p></div>
+        <div class="item4">Absolute <p>จะแปะอยู่ในตำแหน่งนั้นๆของหน้าจอเลย</p></div>
+        <div class="item5">Sticky<p>เมื่อเลื่อนถึงตำแหน่งที่กำหนดจะแปะอยู่ในตำแหน่งนั้น</p> </div>
+        
+    </div>
+    <hr>
+    <table>
+        <tr>
+            <th colspan="2">Z Indexคืออะไร/ใช้งาน</th>
+        </tr>
+        <tr>
+            <td> <em>Z Index </em> </td>
+            <td>เป็นค่าที่กำหนดให้ Object นั้นๆแสดงผลอยู่หน้าหรืออยู่ข้างหลัง default เป็น 0 โดยค่ามากกว่า Priority จะมากกว่า
+            </td>
+        </tr>
+
+    </table>
+    <hr>
+    
+</body>
+
+</html>

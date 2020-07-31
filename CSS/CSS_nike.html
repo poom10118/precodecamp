@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+    <style>
+        body {
+            width: auto;
+            height: auto;
+        }
+
+        .container {
+            width: 100%;
+            height: 62px;
+            border: 1px solid greenyellow;
+            display: block;
+            box-sizing: border-box;
+            text-align: right;
+        }
+
+        .header {
+            width: 100%;
+            height: 62px;
+            border: 1px solid hotpink;
+
+        }
+
+        .banner {
+            width: 100%;
+            height: 62px;
+            border: 1px solid orangered;
+
+        }
+
+        .banner>.nikelogo {
+
+            width: 100px;
+            height: 62px;
+            border: 1px solid black;
+
+        }
+
+        .banner>#search {
+
+            width: 30PX;
+            height: 30px;
+            border: 1px solid black;
+            position: absolute;
+            top: 20px;
+            right: 120px;
+
+        }
+
+        .banner>#cart {
+
+            width: 30PX;
+            height: 30px;
+            border: 1px solid black;
+            position: absolute;
+            top: 20px;
+            right: 69px;
+
+        }
+
+        .banner>#bar {
+
+            width: 30PX;
+            height: 30px;
+            border: 1px solid black;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+
+        }
+
+        .menu>div {
+            width: 30PX;
+            height: 30px;
+            border: 1px solid black;
+            display: inline-block
+        }
+
+        .running {
+            height: 58px;
+            background: #f5f5f5;
+            padding-top: 10px;
+            text-align: center;
+        }
+
+        .cat {
+            white-space: nowrap;
+            margin-right: 100px;
+            min-width: 175px;
+            font-size: 24px;
+            font-weight: 500;
+            padding: 0 20px;
+
+        }
+
+        .consub {
+            padding-top: 12px;
+            margin-top: 0;
+            width: 100%;
+            position: sticky;
+            top: 0;
+            background-color: white;
+
+        }
+
+        .maingoods {
+            padding-inline-start: 0px;
+        }
+
+        .maingoods>li {
+            display: inline-block;
+        }
+
+        .maingoods>li+li {
+            margin-left: 20px
+        }
+
+        .product {
+            /* display: grid;
+            grid-template-columns: 33% 33% 33%;
+            
+            grid-gap: 20px;
+            margin-top: 150px; */
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            grid-template-rows: 500px 200px 30px 350px;
+            grid-gap: 20px;
+            justify-content: center;
+        }
+        .product2 {
+            /* display: grid;
+            grid-template-columns: 33% 33% 33%;
+            
+            grid-gap: 20px;
+            margin-top: 150px; */
+            display: grid;
+            grid-template-columns: 50% 50% ;
+            grid-template-rows: 30px 500px ;
+            grid-gap: 20px;
+            justify-content: center;
+        }
+        .product3 {
+            /* display: grid;
+            grid-template-columns: 33% 33% 33%;
+            
+            grid-gap: 20px;
+            margin-top: 150px; */
+            display: grid;
+            grid-template-columns: 50% 50% ;
+            grid-template-rows: 40px 500px ;
+            justify-content: center;
+        }
+        .product4 {
+            /* display: grid;
+            grid-template-columns: 33% 33% 33%;
+            
+            grid-gap: 20px;
+            margin-top: 150px; */
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            grid-template-rows: 30px 500px ;
+            grid-gap: 20px;
+            justify-content: center;
+        }
+
+
+
+        .product>div,.product4>div {
+            background-color: orangered;
+        }
+
+        .product>.item1 {
+            grid-column: 1/4;
+            background-color: orangered;
+        }
+
+        .product>.TRASH {
+            grid-column: 1/4;
+            background-color: orangered;
+        }
+
+        .product>.topic,.product4>.topic  {
+            grid-column: 1/4;
+            margin-left: 8px;
+        }
+        .product2>.topic,.product3>.topic {
+            grid-column: 1/3;
+            margin-left: 8px;
+        }
+
+        .product2>div,.product3>div {
+            
+            background-color: orangered;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="banner">
+            <div class="nikelogo">รูปไนกี้</div>
+            <div id='search'></div>
+            <div id='cart'></div>
+            <div id='bar'></div>
+        </div>
+    </div>
+    <br>
+    <div class="running">ตัววิ่ง</div>
+
+
+
+    <div class="consub">
+        <h1 class="cat">ผู้ชาย</h1>
+        <ul class="maingoods">
+            <li><a class="Goods">รองเท้า</a>
+            </li>
+            <li><a class="Goods">เสื้อผ้า</a>
+            </li>
+            <li><a class="Goods">อุปกรณ์</a>
+            </li>
+        </ul>
+
+    </div>
+    <div class="product">
+        <div class="item1">สินค้า1</div>
+        <div class="TRASH">THIS IS TRASH</div>
+        <p class="topic">รองเท้าเด่น</p>
+        <div class="item2">สินค้า2</div>
+        <div class="item3">สินค้า3</div>
+        <div class="item4">สินค้า4</div>
+
+    </div>
+    <div class="product2">
+        <p class="topic">กำลังฮิต</p>
+        <div class="item5">สินค้า5</div>
+        <div class="item6">สินค้า6</div>
+    </div>
+    <div class="product3">
+        <p class="topic">สินค้าเด่น</p>
+        <div class="item7">สินค้า7</div>
+        <div class="item8">สินค้า8</div>
+    </div>
+    <div class="product4">
+        <p class="topic">อุปกรณ์ชิ้นจำเป้น</p>
+        <div class="item9">สินค้า9</div>
+        <div class="item10">สินค้า10</div>
+        <div class="item10">สินค้า11</div>
+    </div>
+
+
+</body>
+
+</html>
