@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Review</title>
+    <style>
+        table,
+        td,
+        th {
+            border: ridge;
+        }
+
+        th {
+            font-size: 20PX;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th colspan="4">CSS syntax ประกอบด้วย</th>
+        </tr>
+
+        <tr>
+            <td>Selector</td>
+            <td>Declaration</td>
+            <td>Property</td>
+            <td>Value</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <th colspan="2">การเขียน CSS มีอะไรบ้าง</th>
+        </tr>
+
+        <tr>
+            <td><em> External</em></td>
+            <td>เป็นการเขียนแยกไฟล์ออกมาเลย</td>
+
+
+        </tr>
+        <tr>
+            <td><em> Internal</em></td>
+            <td>เป็นการเขียนอยู่ด้านบนของ Page เดียวกัน</td>
+
+
+        </tr>
+        <tr>
+            <td><em> Inline </em></td>
+            <td>เป็นการเขียนเฉพาะ TAG นั้นๆ</td>
+
+
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <th colspan="3"> Selector มีอะไรบ้าง</th>
+        </tr>
+        <tr>
+            <th> ประเภท Selector </th>
+            <th> ความหมาย</th>
+            <th> ตัวอย่าง</th>
+        </tr>
+        <tr>
+            <td><em> Class selector</em></td>
+            <td>เป็นการเรียกโดยมีกระบุชื่อ Class ให้กับ TAG</td>
+            <td>.myclass{ font: bold 12px Tahoma;color: #009; }</td>
+        </tr>
+        <tr>
+            <td><em> ID selector</em></td>
+            <td>เป็นการเรียกโดยมีกระบุชื่อ ID ให้กับ TAG นั้นๆ</td>
+            <td>#myclass{ font: bold 12px Tahoma;color: #009; }</td>
+        </tr>
+        <tr>
+            <td><em> TAG selector</em></td>
+            <td>เป็นการกำหนดค่าของ TAG ประเภทนั้นๆทั้งหมดเลย</td>
+            <td>h1{ font: bold 12px Tahoma;color: #009; }</td>
+        </tr>
+
+
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <th colspan="3"> Combinator มีอะไรบ้าง</th>
+        </tr>
+        <tr>
+            <th> ประเภท Combinator </th>
+            <th> ความหมาย</th>
+            <th> ตัวอย่าง</th>
+        </tr>
+        <tr>
+            <td><em> Descendant ฉombinators </em></td>
+            <td>เป็นการเรียกTAGที่เป็นประเภทเดียวกับ Selector ตัวที่2ทั้งหมดที่อยู่ภายใต้ Selector ตัวแรก</td>
+            <td>.myclass div</td>
+        </tr>
+        <tr>
+            <td><em> Child Combinator</em></td>
+            <td>เป็นการเรียก TAG เฉพาะลูกๆ ที่เป็นประเภทเดียวกับ Selector ตัวที่2 เท่านั้น</td>
+            <td>.myclass > div</td>
+        </tr>
+        <tr>
+            <td><em> Adjacent Sibling Combinator</em></td>
+            <td>เป็นการเรียก TAG ที่อยู่ถัดไป และ เป็นประเภทเดียวกับ Selector ตัวที่2 แค่ตัวเดียวเท่านั้น </td>
+            <td>.myclass + div</td>
+        </tr>
+
+        <tr>
+            <td><em> General Sibling Combinator</em></td>
+            <td>เป็นการเรียก TAG ที่อยู่ถัดไป และ เป็นประเภทเดียวกับ Selector ตัวที่2 ทั้งหมด </td>
+            <td>.myclass ~ div</td>
+        </tr>
+
+
+    </table>
+</body>
+
+</html>

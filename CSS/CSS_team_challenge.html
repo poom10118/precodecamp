@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Challenge</title>
+    <style>
+        .head{
+            width: 150px;
+        }
+        #ex{
+            width: 80px;
+        }
+        #logo{
+            margin-left: 73px;
+        }
+        input{
+            width: 177px;
+        }
+        select{
+            width: 185px;
+        }
+        #scoring{
+            width: auto ;
+        }
+        p{
+            border-top: 1px solid  gray;;
+            padding: 10px;
+            padding-left: -10px;
+            background-color: lightgray;
+            text-align: left;
+            color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+        .Q{
+            background-color: goldenrod;
+            font-size: 15px;
+            font-style: unset;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td class="head"> <label for="fname">Name <span style="color: crimson;">*</span> :</label></td>
+            <td> <input type="text" id="fname" name="fname" value=""><button type="button" class="Q">?</button></td>
+        </tr>
+        <tr>
+            <td class="head">
+                <label for="lname">Tab Text <span style="color: crimson;">*</span>:</label></td>
+            <td> <input type="text" id="lname" name="lname" value="">
+                <button type="button" class="Q">?</button></td>
+        </tr>
+        <tr>
+            <td class="head">
+                <label for="lname">URL <span style="color: crimson;">*</span>:</label></td>
+            <td> <span>http://www.wizehive.com/webform/</span><input id ="ex" type="text" id="lname" name="lname" value="">
+            </td> 
+        </tr>
+   <tr>
+       <td></td>
+   </tr>
+        <tr>
+            <th colspan="2"> <p>Form Setup</p> </th>
+        </tr>
+        <tr>
+            <td class="head">  <label for="fname">Form :</label></td>
+            <td> <select name="Form" id="">
+                    <option value="tomato"></option>
+                    <option value="barbeque">Barbeque</option>
+                    <option value="mayonnaise">Mayonnaise</option>
+                    <option value="secret">Secret Sauce</option>
+                </select>
+            <button type="button">Edit</button></td>
+        </tr>
+        <tr>
+            <td class="head"> <label for="fname">Logo :</label></td>
+            <td> <span>no logo uploaded</span>
+             <button id= "logo">Upload logo</button></td>
+        </tr>
+        <tr>
+            <td class="head"> <label for="fname">Template Text :</label></td>
+            <td> <select name="Form" id="">
+                <option value="tomato">English</option>
+                <option value="barbeque">Barbeque</option>
+                <option value="mayonnaise">Mayonnaise</option>
+                <option value="secret">Secret Sauce</option>
+            </select>
+            
+             <button>Edit</button></td>
+        </tr>
+        <tr>
+            <td class="head"> <label for="fname">Review Form :</label></td>
+            <td> <select name="Form" id="">
+                <option value="tomato">Default</option>
+                <option value="barbeque">Barbeque</option>
+                <option value="mayonnaise">Mayonnaise</option>
+                <option value="secret">Secret Sauce</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td class="head"> <label for="fname">Review Score :</label></td>
+            <td> <select name="Form" id="">
+                <option value="tomato">Rating</option>
+                <option value="barbeque">Barbeque</option>
+                <option value="mayonnaise">Mayonnaise</option>
+                <option value="secret">Secret Sauce</option>
+            </select>
+             <button>Reload Fields</button></td>
+        </tr>
+        <tr>
+            <td class="head"> <label for="fname">Scoring Type :</label></td>
+            <td ><select name="Form" id="scoring">
+                <option value="tomato">Average</option>
+                <option value="barbeque">Barbeque</option>
+                <option value="mayonnaise">Mayonnaise</option>
+                <option value="secret">Secret Sauce</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td class="head"> <label for="fname">Max Score :</label></td>
+            <td> <input type="text" id="fname" name="fname" value="4.00"></td>
+        </tr>
+
+
+    </table>
+
+
+
+
+</body>
+
+</html>
