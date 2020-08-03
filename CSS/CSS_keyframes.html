@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes</title>
+    <style>
+        .container {
+            display: grid;
+            text-align: center;
+            grid-template-columns: auto;
+            justify-content: center;
+
+        }
+
+        .container>.anm {
+            width: 400px;
+            height: 200px;
+            background-color: tomato;
+            animation-name: a1;
+            animation-duration: 10s;
+            /* animation: a1 alternate ease-in 1s 1s 1; */
+            border: 1px dashed black;
+            margin: auto;
+        }
+
+        .container>.anm2 {
+            width: 600px;
+            height: 300px;
+            background-color: turquoise;
+            animation-name: a2;
+            animation-duration: 5s;
+            /* animation: a1 alternate ease-in 1s 1s 1; */
+            visibility: hidden;
+           
+        }
+
+        @keyframes a1 {
+            from {
+                width: 1px;
+            }
+
+            to {
+                width: 400px;
+                background-color: goldenrod;
+                border: 2px dashed black;
+                position: relative;
+                top: 100px;
+                
+            }
+        }
+        @keyframes a2 {
+            0% {
+                visibility: hidden;
+            }
+
+            100% {
+               visibility: visible;
+                
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div>
+            <h1>Keyframes</h1>
+        </div>
+        <div class="anm"></div>
+        <div class="anm2"></div>
+    </div>
+</body>
+
+</html>
