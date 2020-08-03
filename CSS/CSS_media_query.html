@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .clockpic {
+            width: 80%;
+
+        }
+
+        div {
+            text-align: center;
+        }
+
+        .paragraph {
+            display: grid;
+            grid-gap: 20px;
+            padding: 8px;
+        }
+
+        .paragraph>div {
+            border-style: dashed;
+            padding: 8px;
+        }
+
+        .paragraph>div>h3 {
+            outline: rebeccapurple dotted 2px;
+            font-family: fantasy;
+
+        }
+
+        @media only screen and (max-width: 560PX) {
+            .paragraph {
+                grid-template-columns: auto;
+            }
+
+            .paragraph>div>h3 {
+
+                font-size: 23PX;
+
+            }
+        }
+
+        @media only screen and (min-width: 561PX) and (max-width: 840PX) {
+            .paragraph {
+                grid-template-columns: auto auto;
+            }
+
+            .paragraph>div>h3 {
+
+                font-size: 30PX;
+
+            }
+
+            .paragraph>div>p {
+
+                font-size: 20PX;
+
+            }
+        }
+
+        @media only screen and (min-width: 841PX) {
+            .paragraph {
+                grid-template-columns: auto auto auto;
+            }
+
+            .paragraph>div>h3 {
+
+                font-size: 50PX;
+
+            }
+
+            .paragraph>div>p {
+
+                font-size: 30PX;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div><img class="clockpic"
+            src="https://images.pexels.com/photos/1198264/pexels-photo-1198264.jpeg?cs=srgb&dl=pexels-stas-knop-1198264.jpg&fm=jpg"
+            alt="clock"></div>
+
+    <div class="paragraph">
+        <div class="item1">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugit, dolorem esse dolorum
+                sint est? Illum corrupti quisquam, eum nam impedit est ad praesentium, distinctio mollitia quas
+                dignissimos,
+                quae ea.</p>
+        </div>
+        <div class="item2">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugit, dolorem esse dolorum
+                sint est? Illum corrupti quisquam, eum nam impedit est ad praesentium, distinctio mollitia quas
+                dignissimos,
+                quae ea.</p>
+        </div>
+        <div class="item3">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugit, dolorem esse dolorum
+                sint est? Illum corrupti quisquam, eum nam impedit est ad praesentium, distinctio mollitia quas
+                dignissimos,
+                quae ea.</p>
+        </div>
+        <div class="item4">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugit, dolorem esse dolorum
+                sint est? Illum corrupti quisquam, eum nam impedit est ad praesentium, distinctio mollitia quas
+                dignissimos,
+                quae ea.</p>
+        </div>
+        <div class="item5">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugit, dolorem esse dolorum
+                sint est? Illum corrupti quisquam, eum nam impedit est ad praesentium, distinctio mollitia quas
+                dignissimos,
+                quae ea.</p>
+        </div>
+        <div class="item6">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugit, dolorem esse dolorum
+                sint est? Illum corrupti quisquam, eum nam impedit est ad praesentium, distinctio mollitia quas
+                dignissimos,
+                quae ea.</p>
+        </div>
+        <div class="item7">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugit, dolorem esse dolorum
+                sint est? Illum corrupti quisquam, eum nam impedit est ad praesentium, distinctio mollitia quas
+                dignissimos,
+                quae ea.</p>
+        </div>
+        <div class="item8">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugit, dolorem esse dolorum
+                sint est? Illum corrupti quisquam, eum nam impedit est ad praesentium, distinctio mollitia quas
+                dignissimos,
+                quae ea.</p>
+        </div>
+    </div>
+</body>
+
+</html>

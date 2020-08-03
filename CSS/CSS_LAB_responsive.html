@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* .background>img {
+            width: 100%;
+            z-index: -100;
+        } */
+        .background {
+            z-index: -1;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            padding: 16px;
+
+            margin-top: -120px;
+            text-align: center;
+            z-index: -2;
+
+        }
+
+        .container>.inputform {
+            background-color: white;
+            width: 60%;
+            height: auto;
+            text-align: center;
+            padding: 16px;
+            border-radius: 25px 25px 25px 25px;
+            z-index: 1000;
+            font-family: Impact, fantasy;
+            color: #2b2d2f;
+            box-shadow: 0px 1px 20px 20px rgba(234, 229, 229, 0.2784313725490196);
+        }
+
+        .background>div {
+            width: 100%;
+            z-index: -1;
+            /* background-color: red; */
+            background-image: url("https://images.pexels.com/photos/272976/pexels-photo-272976.jpeg?cs=srgb&dl=pexels-pixabay-272976.jpg&fm=jpg");
+            min-height: 400px;
+
+            background-position: center;
+            background-size: cover;
+
+        }
+
+        .vid {
+            width: 100%;
+            z-index: -1;
+            /* background-color: red; */
+            background-image: url("https://images.pexels.com/photos/4149012/pexels-photo-4149012.jpeg?cs=srgb&dl=pexels-gustavo-fring-4149012.jpg&fm=jpg");
+            min-height: 400px;
+
+            background-position: center;
+            background-size: cover;
+
+        }
+
+        .h- {
+            font-size: 50px;
+        }
+        .info{
+            text-align: center;
+        }
+
+        @media only screen and (max-width: 560PX) {
+            .inputform {
+                width: 10px;
+            }
+
+
+        }
+
+        @media only screen and (min-width: 561PX) {
+            .inputform {
+                width: 500px;
+            }
+
+            .i- {
+                display: grid;
+                grid-template-columns: auto auto;
+            }
+
+            .i->p:not(.btn) {
+                font-size: 25px;
+                text-align: left;
+            }
+
+            .name>span>input {
+
+                width: 95%;
+            }
+
+            .email>span>input {
+
+                width: 95%;
+            }
+
+            .subj {
+                grid-column: 1/3;
+                width: auto;
+            }
+
+            .subj>span>input {
+
+                width: 100%;
+            }
+
+            .message {
+                grid-column: 1/3;
+                width: auto;
+            }
+
+            .message>span>textarea {
+
+                width: 100%;
+            }
+
+            .btn {
+                grid-column: 1/3;
+                text-align: center;
+            }
+
+            .btn>input {
+
+                text-align: center;
+            }
+            .info{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        }
+
+
+
+        @media only screen and (min-width: 841PX) {
+            .paragraph {
+                grid-template-columns: auto auto auto;
+            }
+
+            .paragraph>div>h3 {
+
+                font-size: 50PX;
+
+            }
+
+            .paragraph>div>p {
+
+                font-size: 30PX;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="background"> <img
+            src="https://images.pexels.com/photos/272976/pexels-photo-272976.jpeg?cs=srgb&dl=pexels-pixabay-272976.jpg&fm=jpg"
+            alt="template"></div> -->
+    <div class="background">
+        <div></div>
+    </div>
+
+    <div class="container">
+        <div class="inputform">
+            <p class="h-">Contact us today </p>
+            <hr>
+            <form action="" class="i-">
+                <p class="name">Your Name (required)
+                    <br>
+                    <span><Input type="text"></Input></span>
+                </p>
+                <p class="email"> Your Email (required)
+                    <br>
+                    <span><Input type="text"></Input></span>
+                </p>
+                <p class="subj">Subject (required)
+                    <br>
+                    <span><Input type="text"></Input></span>
+                </p>
+                <p class="message">Your Message
+                    <br>
+                    <span> <textarea name="message" id="" cols="30" rows="10"></textarea> </span>
+                </p>
+                <p class="btn"> <input type="submit" value="SEND"></p>
+            </form>
+            <hr>
+            <p>Pimclick is a full service web design and online marketing agency offering a unique blend of creativity
+                and expertise within the entirety of the digital spectrum. With headquarters located in Paris, France
+                and branch offices dispersed throughout major cities such as Dubai, Hong Kong, Casablanca and Bangkok.
+            </p>
+            <hr>
+            <div class="vid"></div>
+           
+        </div>
+        
+
+    </div>
+    <div class="info">
+        <div class="item1">
+            <h3>Digital Strategy</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugit, dolorem esse dolorum
+                sint est? Illum corrupti quisquam, eum nam impedit est ad praesentium, distinctio mollitia quas
+                dignissimos,
+                quae ea.</p>
+        </div>
+        <div class="item2">
+            <h3>Digital Production</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugit, dolorem esse dolorum
+                sint est? Illum corrupti quisquam, eum nam impedit est ad praesentium, distinctio mollitia quas
+                dignissimos,
+                quae ea.</p>
+        </div>
+        <div class="item3">
+            <h3>E-Marketing</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugit, dolorem esse dolorum
+                sint est? Illum corrupti quisquam, eum nam impedit est ad praesentium, distinctio mollitia quas
+                dignissimos,
+                quae ea.</p>
+        </div>
+        <div class="item4">
+            <h3>Graphic Design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugit, dolorem esse dolorum
+                sint est? Illum corrupti quisquam, eum nam impedit est ad praesentium, distinctio mollitia quas
+                dignissimos,
+                quae ea.</p>
+        </div>
+        <div class="item5">
+            <h3>Video Production</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugit, dolorem esse dolorum
+                sint est? Illum corrupti quisquam, eum nam impedit est ad praesentium, distinctio mollitia quas
+                dignissimos,
+                quae ea.</p>
+        </div>
+        <div class="item6">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugit, dolorem esse dolorum
+                sint est? Illum corrupti quisquam, eum nam impedit est ad praesentium, distinctio mollitia quas
+                dignissimos,
+                quae ea.</p>
+        </div>
+        <div class="item7">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugit, dolorem esse dolorum
+                sint est? Illum corrupti quisquam, eum nam impedit est ad praesentium, distinctio mollitia quas
+                dignissimos,
+                quae ea.</p>
+        </div>
+        <div class="item8">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugit, dolorem esse dolorum
+                sint est? Illum corrupti quisquam, eum nam impedit est ad praesentium, distinctio mollitia quas
+                dignissimos,
+                quae ea.</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
