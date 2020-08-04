@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Shorthand</title>
+    <style>
+        @keyframes a1{
+            0% {
+                background-color: red;
+            }
+
+            25% {
+                background-color: black;
+            }
+
+            50% {
+                background-color: blue;
+            }
+
+            75% {
+                background-color: green;
+            }
+
+            100% {
+                background-color: yellow;
+            }
+        }
+        @keyframes a2{
+            0% {
+                background-color: red;
+            }
+
+            25% {
+                background-color: black;
+                visibility: hidden;
+            }
+
+            50% {
+                background-color: blue;
+            }
+
+            75% {
+                background-color: green;
+                visibility: hidden;
+            }
+
+            100% {
+                background-color: yellow;
+            }
+        }
+        @keyframes a3{
+            0% {
+                position: relative;
+                top: 0px;
+            }
+
+            25% {
+                position: relative;
+                top: 10px;
+            }
+
+            50% {
+                position: relative;
+                top: 20px;
+            }
+
+            75% {
+                position: relative;
+                top: 25px;
+            }
+
+            100% {
+                position: relative;
+                top: 30px;
+            }
+        }
+        .container{
+            display: grid;
+            text-align: center;
+            grid-template-columns: auto;
+        }
+        .inner{
+            display: flex;
+            justify-content: center;
+        }
+        .inner>div{
+            width: 200px;
+            height: 200px;
+            margin: 5px;
+            background-color: salmon;
+        }
+        .anm1{
+            animation: a1 5s normal 1s infinite ease ;
+        }
+        .anm2{
+            animation: a2 5s alternate 1s infinite  cubic-bezier(0.6, -0.28, 0.735, 0.045) ;
+        }
+        .anm3{
+            animation: a3 2s linear 2s infinite alternate ;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div > <h1>Keyframes Shorthand</h1></div>
+        <div class="inner">
+            <div class="anm1"></div>
+            <div class="anm2"></div>
+            <div class="anm3"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
