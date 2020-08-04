@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heading</title>
+    <style>
+        @media only screen and (max-width: 500PX) {
+            .inner {
+                display: grid;
+                grid-template-columns: auto;
+            }
+
+
+        }
+        @media only screen and (min-width: 501PX) {
+            .inner {
+                display: flex;
+                justify-content: center;
+            }
+
+
+        }
+
+        @keyframes a1 {
+            0% {
+                background-color: greenyellow;
+            }
+
+            25% {
+                background-color: gainsboro;
+            }
+
+            50% {
+                background-color: gold;
+            }
+
+            75% {
+                background-color: cyan;
+            }
+
+            100% {
+                background-color: turquoise;
+            }
+        }
+
+        @keyframes a2 {
+            0% {
+                background-color: greenyellow;
+            }
+
+            25% {
+                background-color: gainsboro;
+            }
+
+            50% {
+                background-color: gold;
+            }
+
+            75% {
+                background-color: cyan;
+            }
+
+            100% {
+                background-color: turquoise;
+            }
+        }
+
+        @keyframes a3 {
+            0% {
+                background-color: greenyellow;
+            }
+
+            25% {
+                background-color: gainsboro;
+            }
+
+            50% {
+                background-color: gold;
+            }
+
+            75% {
+                background-color: cyan;
+            }
+
+            100% {
+                background-color: turquoise;
+            }
+        }
+
+
+        .container {
+            display: grid;
+            grid-template-columns: auto;
+            text-align: center;
+        }
+
+        /* .container>.inner {
+            display: flex;
+            justify-content: center;
+        } */
+
+        .inner>div {
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            margin: 5px;
+
+        }
+
+        .anm1 {
+            animation-name: a1;
+            animation-delay: 2s;
+            animation-direction: alternate;
+            animation-duration: 5s;
+            animation-iteration-count: 2;
+        }
+
+        .anm2 {
+            animation-name: a2;
+            animation-delay: 2s;
+            animation-direction: reverse;
+            animation-duration: 5s;
+            animation-iteration-count: 2;
+        }
+
+        .anm3 {
+            animation-name: a3;
+            animation-delay: 2s;
+            animation-direction: normal;
+            animation-duration: 5s;
+            animation-iteration-count: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>Keyframes</h1>
+        </div>
+        <div class="inner">
+            <div class="anm1">Alternate</div>
+            <div class="anm2">Reverse</div>
+            <div class="anm3">Normal</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
