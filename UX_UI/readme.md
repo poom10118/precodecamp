@@ -16,3 +16,10 @@
 
 ### Problem Statement
 [Link to docs](https://docs.google.com/document/d/1cRN7Jp_QBOXY0cGCNAkNK2kMLTalbywNqG14Ds_LDuU/edit?usp=sharing)
+
+### lo-fi wireflow
+
+[Link] (https://miro.com/app/board/o9J_kn_Jor8=/)
+
+### Hi-fi wireflow
+[link](https://miro.com/app/board/o9J_kn_VgUc=/)
