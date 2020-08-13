@@ -19,7 +19,7 @@
 
 ### lo-fi wireflow
 
-[Link] (https://miro.com/app/board/o9J_kn_Jor8=/)
+[Link](https://miro.com/app/board/o9J_kn_Jor8=/)
 
 ### Hi-fi wireflow
 [link](https://miro.com/app/board/o9J_kn_VgUc=/)
