@@ -32,3 +32,6 @@
 >[link Hi-fi](https://miro.com/app/board/o9J_kn_VgUc=/) 
 
 ---
+
+### Mockup Figma
+> [Link to Figma](https://www.figma.com/file/GDevDrpwpbuUTg0foyCVIV/Mockup?node-id=0%3A1)
