@@ -34,4 +34,4 @@
 ---
 
 ### Mockup Figma
-> [Link to Figma](https://www.figma.com/file/GDevDrpwpbuUTg0foyCVIV/Mockup?node-id=0%3A1)
+> [Link to Figma](https://www.figma.com/proto/GDevDrpwpbuUTg0foyCVIV/Mockup?node-id=1%3A12&scaling=scale-down)
