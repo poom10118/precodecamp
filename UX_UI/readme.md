@@ -7,7 +7,8 @@
 
 ### เล่าเรื่องจริง2โกหก1
 #### เล่าเรื่องอะไรก็ได้เกี่ยวกับตัวเอง 3 ข้อ โดย 2 ข้อเป็นเรื่องจริง อีก 1 ข้อ เป็นเรื่องโกหก
->[Link](https://docs.google.com/document/d/1IZsRDAmRNQe4zjtcjSeePgJ8AKf9yosUKjlv7WTtFfg/edit)
+>[Link](https://docs.google.com/document/d/1IZsRDAmRNQe4zjtcjSeePgJ8AKf9yosUKjlv7WTtFfg/edit?usp=sharing)
+
 
 ---
 
