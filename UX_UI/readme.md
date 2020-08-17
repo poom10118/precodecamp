@@ -41,3 +41,12 @@
 
 ### Mockup Figma (include Sim4+Prox3)
 > [Link to Figma](https://www.figma.com/proto/GDevDrpwpbuUTg0foyCVIV/Mockup?node-id=1%3A12&scaling=scale-down)
+
+---
+
+### Inspiration
+#### หา Mobile App ที่จะเป็น Inspiration ด้าน design ให้เราได้ อย่างน้อย 3 App
+
+>[Link](https://www.figma.com/file/kza6OTNMPxp9qSy80jvpJz/Inspiration?node-id=0%3A1)
+
+---
