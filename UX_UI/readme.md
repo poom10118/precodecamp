@@ -4,6 +4,12 @@
 >[Link](https://htmlpreview.github.io/?https://github.com/poom10118/precodecamp/blob/master/UX_UI/UX_XI_notinclude6.html)
 
 ---
+
+### เล่าเรื่องจริง2โกหก1
+>[Link](https://docs.google.com/document/d/1IZsRDAmRNQe4zjtcjSeePgJ8AKf9yosUKjlv7WTtFfg/edit)
+
+---
+
 ### วิเคราะห์ UX/UI
 >[Link](https://htmlpreview.github.io/?https://github.com/poom10118/precodecamp/blob/master/UX_UI/UX_UI_website.html)
 
