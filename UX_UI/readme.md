@@ -33,5 +33,5 @@
 
 ---
 
-### Mockup Figma
+### Mockup Figma (include Sim4+Prox3)
 > [Link to Figma](https://www.figma.com/proto/GDevDrpwpbuUTg0foyCVIV/Mockup?node-id=1%3A12&scaling=scale-down)
