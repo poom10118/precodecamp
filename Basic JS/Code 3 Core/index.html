@@ -2,18 +2,8 @@
 
 <head>
     <title>Test 3 core of front-end</title>
-    <style>
-        h2 {
-            text-align: center;
-            font-size: 4rem;
-            color: blueviolet;
-            background-color: darkgray;
-        }
+    <link rel="stylesheet" href="index.css">
 
-        body {
-            background-color: cornflowerblue;
-        }
-    </style>
 </head>
 
 <body>
@@ -21,18 +11,8 @@
     <input type="text" placeholder="Text background color" id="in2">
     <button onclick="changeColor()">Change color</button>
     <h2>CodeCamp Thailand</h2>
-    <script>
-        function changeColor() {
-            // alert("alert from changeColor")
-            // let acolor = document.getElementById('#in1').value
-            let tcolor = document.querySelector('#in1').value
-            let bcolor = document.querySelector('#in2').value
-            // alert(tcolor + bcolor)
-            document.querySelector('h2').style.color = tcolor
-            document.querySelector('h2').style.backgroundColor = bcolor
 
-        }
-    </script>
+    <script src="index.js"></script>
 </body>
 
 </html>
