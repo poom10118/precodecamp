@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let n = Number(prompt('จำนวนรอบ'))
+        let star = '';
+        let line = '';
+        drawStar(n)
+
+        function drawStar(n) {
+            for (let i = 1; i < n+1; i++) {
+                star = star + i 
+                console.log("this is i"+i)
+                console.log("this is star"+star)
+            }
+            for (let i = 0; i < n; i++) {
+                line = line+star+'\n'
+
+            }
+        }
+        alert(line)
+        
+            
+       
+        
+    </script>
+</body>
+
+</html>
