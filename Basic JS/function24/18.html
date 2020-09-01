@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let n = Number(prompt('จำนวนรอบ'))
+        let number = 0;
+        let line = "";
+        let x = n;
+        drawStar(n)
+
+        function drawStar(n) {
+            let temp = (n*n)
+        
+
+            for (let i = 1; i < n+1; i++) {
+                number =  i 
+                console.log("this is  outner i"+i)
+                console.log("this is star"+number)
+                console.log("this is outner n"+n)
+
+                for (let i = 1; i < x+1; i++) {
+                    if (i<number){
+                        line = line + '-'
+                    }else
+                line = line+'*'
+                console.log("this is inner n"+n)
+                console.log("this is inner i"+i)
+
+            }
+            line = line+'\n'
+            }
+            
+            
+            // console.log("this is star" + number)
+        }
+
+
+        alert(line)
+
+
+
+
+    </script>
+</body>
+
+</html>

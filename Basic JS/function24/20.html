@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let n = Number(prompt('จำนวนรอบ'))
+        let number = 0;
+        let line = "";
+        let x = n;
+        let running = 1;
+        console.log("START RUNNING" + running)
+        drawStar(n)
+
+        function drawStar(n) {
+            let temp = n
+            let m = n
+
+            for (let i = 1; i < n + 1; n--) {
+                number = n
+                // console.log("this is  outner i" + i)
+                // console.log("this is star" + number)
+                // console.log("this is outner n" + n)
+
+                for (let i = 1; i < x + 1; i++) {
+                    if (i < number) {
+                        line = line + '-'
+                    } else {
+                        line = line + running
+                        console.log("First RUNNING" + running)
+                        running = running + 1
+                        console.log(" RUNNING Increse" + running)
+                        // console.log("this is inner n" + n)
+                        console.log("this is inner i" + i)
+                        console.log("this is inner number" + number)
+                    }
+                }
+                line = line + '\n'
+            }
+            // console.log(" First n" + n)
+            // console.log(" temp" + temp)
+            for (let i = 1; i < m + 1; i++) {
+                number = i
+                // console.log("this is  outner i" + i)
+                // console.log("this is star" + number)
+                // console.log("this is outner n" + m)
+                if (i - 1 != n) {
+                    for (let i = 1; i < x + 1; i++) {
+                        if (i < number) {
+                            line = line + '-'
+                        } else {
+                            line = line + running
+                            console.log("First RUNNING" + running)
+                            running = running + 1
+                            // console.log("this is inner n" + m)
+                            // console.log("this is inner i" + i)
+                        }
+                    }
+                    line = line + '\n'
+                }
+
+            }
+
+            // console.log("this is star" + number)
+        }
+
+
+        alert(line)
+
+
+
+
+    </script>
+</body>
+
+</html>
