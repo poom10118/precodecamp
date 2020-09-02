@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let n = Number(prompt('จำนวนรอบ'))
+        let number = 0;
+        let line = "";
+        let x = n;
+        let y = n;
+        let number2 = n;
+        let n2 = n;
+        drawStar(n)
+
+        function drawStar(n) {
+            let temp = (n * 2)
+            let m = n
+
+            for (let i = 1; i < n + 1; n--) {
+                number = n
+                console.log("this is  outner i" + i)
+                console.log("this is star" + number)
+                console.log("this is outner n" + n)
+                number2 = number2 + 1
+                for (let i = 1; i < x + 1; i++) {
+                    if (i < number) {
+                        line = line + '-'
+                    } else
+                        line = line + '*'
+                    console.log("this is inner n" + n)
+                    console.log("this is inner i" + i)
+
+                }
+
+
+                for (let i = 1; i < x + 1; i++) {
+                    if (i+n2 > number2) {
+                        line = line + '-'
+                    } 
+                    else if (i+n2 == number2){
+                        
+                    }
+                    else{
+                        line = line + '*'
+                    console.log("this is inner n" + n)
+                    console.log("this is inner i" + i)
+                    }
+                }
+                line = line + '\n'
+
+            }
+
+            // for (let i = 1; i < m + 1; i++) {
+            //     number = i
+            //     console.log("this is  outner i" + i)
+            //     console.log("this is star" + number)
+            //     console.log("this is outner n" + m)
+
+            //     for (let i = 1; i < x + 1; i++) {
+            //         if (i > number) {
+            //             line = line + '-'
+            //         } else
+            //             line = line + '*'
+            //         console.log("this is inner n" + m)
+            //         console.log("this is inner i" + i)
+
+            //     }
+            //     line = line + '\n'
+            // }
+
+
+            // console.log("this is star" + number)
+        }
+
+
+        alert(line)
+
+
+
+
+    </script>
+</body>
+
+</html>
